@@ -4,6 +4,8 @@
 
 ## Plugins
 
+* [Align](http://www.vim.org/scripts/script.php?script_id=294)
+* [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218)
 * [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
 
 ## Syntax Files
