@@ -42,3 +42,9 @@ let g:JSLintHighlightErrorLine = 0
 " Reset search
 map <Leader>rs :let @/='' <CR>
 
+" NERD Commenter
+map <D-/> <plug>NERDCommenterToggle<CR>
+
+" Command height
+set cmdheight=2
+
