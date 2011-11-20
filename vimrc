@@ -1,4 +1,5 @@
-set nocompatible " Vim Improvements
+" Vim Improvements
+set nocompatible
 
 syntax on
 
