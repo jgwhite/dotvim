@@ -16,6 +16,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set list listchars=tab:\ \ ,trail:·
 
 " Searching
 set hlsearch
@@ -62,4 +63,11 @@ au BufRead,BufNewFile *.pde set ft=java
 au BufRead,BufNewFile *.scss set ft=scss
 au BufRead,BufNewFile *.spec set ft=ruby
 au BufRead,BufNewFile *.as set ft=actionscript
+
+" Bubble single lines
+nmap <C-Up> [e
+nmap <C-Down> ]e
+" Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
 
