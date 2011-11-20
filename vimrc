@@ -71,3 +71,5 @@ nmap <C-Down> ]e
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
+" NERDCommenter Options
+let NERDSpaceDelims=1
