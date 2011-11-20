@@ -15,6 +15,7 @@
 * [Javascript](http://www.vim.org/scripts/script.php?script_id=1491)
 * [JSON](http://www.vim.org/scripts/script.php?script_id=1945)
 * [RSpec](http://www.vim.org/scripts/script.php?script_id=2567)
+* [Web Indent](http://www.vim.org/scripts/script.php?script_id=3081)
 
 ## Colour Schemes
 
