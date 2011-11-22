@@ -7,6 +7,7 @@
 * [JSON](http://www.vim.org/scripts/script.php?script_id=1945)
 * [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218)
 * [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
+* [Rails](http://www.vim.org/scripts/script.php?script_id=1567)
 
 ## Syntax Files
 
