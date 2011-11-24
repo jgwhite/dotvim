@@ -4,7 +4,6 @@
 
 * [Ack](http://www.vim.org/scripts/script.php?script_id=2572)
 * [Align](http://www.vim.org/scripts/script.php?script_id=294)
-* [Autoclose](http://www.vim.org/scripts/script.php?script_id=1849)
 * [JSON](http://www.vim.org/scripts/script.php?script_id=1945)
 * [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218)
 * [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
