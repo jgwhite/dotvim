@@ -48,7 +48,8 @@ let g:JSLintHighlightErrorLine = 0
 map <Leader>rs :let @/='' <CR>
 
 " NERD Commenter
-map <D-/> <plug>NERDCommenterAlignLeft<CR>
+map <D-/> <plug>NERDCommenterToggle<CR>
+let NERDSpaceDelims=1
 
 " Command height
 set cmdheight=2
@@ -71,5 +72,3 @@ nmap <C-Down> ]e
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
-" NERDCommenter Options
-let NERDSpaceDelims=1

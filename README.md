@@ -5,6 +5,7 @@
 * [Ack](http://www.vim.org/scripts/script.php?script_id=2572)
 * [Align](http://www.vim.org/scripts/script.php?script_id=294)
 * [JSON](http://www.vim.org/scripts/script.php?script_id=1945)
+* [Matchit](http://www.vim.org/scripts/script.php?script_id=39)
 * [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218)
 * [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Rails](http://www.vim.org/scripts/script.php?script_id=1567)
