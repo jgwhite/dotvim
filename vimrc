@@ -49,6 +49,7 @@ map <Leader>rs :let @/='' <CR>
 
 " NERD Commenter
 map <D-/> <plug>NERDCommenterToggle<CR>
+let NERDCommentWholeLinesInVMode=1
 let NERDSpaceDelims=1
 
 " Command height
