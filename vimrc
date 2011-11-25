@@ -48,7 +48,7 @@ let g:JSLintHighlightErrorLine = 0
 map <Leader>rs :let @/='' <CR>
 
 " NERD Commenter
-map <D-/> <plug>NERDCommenterToggle<CR>
+map <D-/> <plug>NERDCommenterAlignLeft<CR>
 
 " Command height
 set cmdheight=2
