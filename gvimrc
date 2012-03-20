@@ -16,5 +16,7 @@ if has("gui_macvim")
 
   color vwilight           " Default color scheme
 
+  " set clipboard=unnamed
+
 endif
 
