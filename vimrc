@@ -35,7 +35,9 @@ set backspace=indent,eol,start
 " Load plugin and indent settings for detected filetype
 filetype plugin indent on
 
-color vwilight
+" Color
+set t_Co=256
+color twilight256
 
 " Directories for swp files
 set backupdir=~/.vim/backup
