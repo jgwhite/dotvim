@@ -37,7 +37,8 @@ filetype plugin indent on
 
 " Color
 set t_Co=256
-color twilight256
+set background=dark
+color jgw256
 
 " Directories for swp files
 set backupdir=~/.vim/backup
@@ -50,7 +51,7 @@ let g:JSLintHighlightErrorLine = 0
 map <Leader>rs :let @/='' <CR>
 
 " NERD Commenter
-map <D-/> <plug>NERDCommenterToggle<CR>
+map <Leader>/ <plug>NERDCommenterToggle<CR>
 let NERDCommentWholeLinesInVMode=1
 let NERDSpaceDelims=1
 
