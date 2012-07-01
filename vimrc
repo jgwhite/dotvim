@@ -1,6 +1,9 @@
 " Vim Improvements
 set nocompatible
 
+" Pathogen
+call pathogen#infect()
+
 syntax on
 
 set number
@@ -27,8 +30,6 @@ set smartcase
 " Status bar
 set laststatus=2
 
-map <Leader>n :NERDTreeToggle<CR>
-
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -50,24 +51,16 @@ let g:JSLintHighlightErrorLine = 0
 " Reset search
 map <Leader>rs :let @/='' <CR>
 
-" NERD Commenter
-map <Leader>/ <plug>NERDCommenterToggle<CR>
-let NERDCommentWholeLinesInVMode=1
-let NERDSpaceDelims=1
-
 " Command height
 set cmdheight=2
 
 " Filetypes
 au BufRead,BufNewFile conf set ft=apache
-au BufRead,BufNewFile JFile set ft=ruby
+au BufRead,BufNewFile Gemfile set ft=ruby
 au BufRead,BufNewFile Guardfile set ft=ruby
+au BufRead,BufNewFile *.as set ft=actionscript
 au BufRead,BufNewFile *.hbs set ft=handlebars
 au BufRead,BufNewFile *.json set ft=json
-au BufRead,BufNewFile *.pde set ft=java
-au BufRead,BufNewFile *.scss set ft=scss
-au BufRead,BufNewFile *.spec set ft=ruby
-au BufRead,BufNewFile *.as set ft=actionscript
 
 " Bubble single lines
 nmap <C-Up> [e
